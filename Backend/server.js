@@ -17,7 +17,9 @@ import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 
 console.log("RAZORPAY KEY:", process.env.RAZORPAY_KEY_ID);
 
-connectDB();
+connectDB()
+  .then(() => console.log("MongoDB Connected"))
+  .catch((err) => console.log(err));
 
 const app = express();
 

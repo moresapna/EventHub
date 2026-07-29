@@ -69,69 +69,91 @@ Features:
 
 ----------------------------------------------------------------------------------------------------------
 
-# Folder Structure
+# 📂 Project Structure
 
-event-booking-system/
-├── backend/
-│   ├── config/
+<details>
+<summary><strong>Click to view folder structure</strong></summary>
+
+```text
+event-booking-system
+│
+├── 📁 backend
+│   ├── 📁 config
 │   │   ├── db.js
-|   |   ├── razorpay.js
-│   ├── controllers/
+│   │   └── razorpay.js
+│   │
+│   ├── 📁 controllers
 │   │   ├── authController.js
-│   │   ├── eventController.js
 │   │   ├── bookingController.js
+│   │   ├── eventController.js
 │   │   └── userController.js
-│   ├── middleware/
+│   │
+│   ├── 📁 middleware
 │   │   ├── authMiddleware.js
 │   │   ├── errorMiddleware.js
 │   │   └── validate.js
-│   ├── models/
+│   │
+│   ├── 📁 models
 │   │   ├── User.js
 │   │   ├── Event.js
 │   │   └── Booking.js
-│   ├── routes/
+│   │
+│   ├── 📁 routes
 │   │   ├── authRoutes.js
-│   │   ├── eventRoutes.js
 │   │   ├── bookingRoutes.js
-│   │   ├── userRoutes.js
-|   |   └── paymentRoutes.js
+│   │   ├── eventRoutes.js
+│   │   ├── paymentRoutes.js
+│   │   └── userRoutes.js
+│   │
 │   ├── .env
-│   ├── server.js
-│   └── package.json
-├── frontend/
-│    ├── src/
-│    │   ├── components/
-│    │   │   ├── EventCard.jsx
-│    │   │   ├── Navbar.jsx
-│    │   │   └── ProtectedRoute.jsx
-│    │   ├── context/
-│    │   │   └── AuthContext.jsx
-│    │   ├── layouts/
-│    │   │   └── MainLayout.jsx     
-│    │   ├── pages/
-│    │   │   ├── admin/
-│    │   │   │   ├── AdminBookings.jsx
-│    │   │   │   ├── AdminDashboard.jsx
-│    │   │   │   ├── AdminEvents.jsx
-│    │   │   │   ├── AdminUsers.jsx
-│    │   │   │   └── ScanTicket.jsx
-│    │   │   ├── EventDetails.jsx
-│    │   │   ├── Home.jsx
-│    │   │   ├── Login.jsx
-│    │   │   ├── MyBookings.jsx
-│    │   │   ├── Signup.jsx
-│    │   ├── services/
-│    │   │   └── api.js
-│    │   ├── App.jsx
-│    │   ├── main.jsx
-│    │   └── index.css
-│    ├── .env   
-│    ├── tailwind.config.js
-│    ├── postcss.config.js
-│    ├── vite.config.js
-│    ├── index.html
-│    └── package.json
-└──  README.md
+│   ├── package.json
+│   └── server.js
+│
+├── 📁 frontend
+│   ├── 📁 src
+│   │   ├── 📁 components
+│   │   │   ├── EventCard.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   │
+│   │   ├── 📁 context
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── 📁 layouts
+│   │   │   └── MainLayout.jsx
+│   │   │
+│   │   ├── 📁 pages
+│   │   │   ├── 📁 admin
+│   │   │   │   ├── AdminBookings.jsx
+│   │   │   │   ├── AdminDashboard.jsx
+│   │   │   │   ├── AdminEvents.jsx
+│   │   │   │   ├── AdminUsers.jsx
+│   │   │   │   └── ScanTicket.jsx
+│   │   │   │
+│   │   │   ├── EventDetails.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── MyBookings.jsx
+│   │   │   └── Signup.jsx
+│   │   │
+│   │   ├── 📁 services
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── .env
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+│
+└── README.md
+```
+
+</details>
 
 
 ----------------------------------------------------------------------------------------------------------

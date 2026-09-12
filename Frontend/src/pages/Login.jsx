@@ -53,6 +53,13 @@ export default function Login() {
           Sign up
         </Link>
       </p>
+      <div className="pt-2 text-xs text-slate-400 text-center">
+        <p className="font-medium text-slate-500">
+          Demo Admin Access
+        </p>
+        <p>Email: sapna@gmail.com</p>
+        <p>Password: sapna@123</p>
+      </div>
     </div>
   );
 }
